@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #6b776d;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 60vw;
+    max-height: 25vh;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0 0 0;
+    color: #6b776d;
+    letter-spacing: 0.05em;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0 1.5rem 0;
+    color: #f15b5b;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #6b776d;
+    text-align: center;
+    max-width: 80vw;
+}
+
+.gast-box {
+    margin-top: 2.5rem;
+    padding: 1.2rem 2rem;
+    background: #f7f7f7;
+    border-left: 5px solid #f15b5b;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #6b776d;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    text-align: center;
+    max-width: 90vw;
+}
+
+.gast-logo {
+    max-height: 36px;
+    max-width: 80px;
+    margin: 0.3rem 0 0.1rem 0;
+    display: inline-block;
+}
+
+@media (orientation: portrait) {
+    .container {
+        padding: 2rem 0;
+    }
+    .logo {
+        max-width: 80vw;
+        max-height: 18vh;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+} 
